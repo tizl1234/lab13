@@ -1,5 +1,5 @@
 #include <print.hpp>
-#include <stdlib>
+#include <cstdlib>
 int main(int argc, char** argv) {
 std::string text;
 std::string log_path = std::getenv("LOG_PATH");
